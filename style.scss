@@ -5,7 +5,7 @@
        80% {transform: translate(0, calc($distance / 2))} 
        100% {transform: translate($start)}
     }
-    animation: myAnimation $duration;
+    animation: myAnimation $duration infinite;
 }
 
 .bounce {
